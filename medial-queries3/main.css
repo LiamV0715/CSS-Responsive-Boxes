@@ -1,3 +1,74 @@
 body {
   background: peachpuff;
 }
+
+div {
+  border: black solid 3px;
+  min-height: 20px;
+  min-width: 20px;
+  padding: 5px;
+}
+
+.a {
+  min-height: 40%;
+  height: 50px;
+}
+
+.b {
+  width: 30%;
+}
+
+.c {
+  width: 30%;
+}
+
+.d {
+  width: 30%;
+}
+
+.e {
+  width: 30%;
+}
+
+.f {
+  width: 30%;
+}
+
+.g {
+  width: 30%;
+}
+.bcdefg {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 100%;
+}
+
+.h {
+  height: 300px;
+}
+
+
+@media (min-width: 700px) {
+.bcdefgh {
+  display: flex;
+  flex-direction: row;
+}
+
+div {
+  min-height: 100px;
+  min-width: 100px;
+}
+.bcdefg {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 65%;
+}
+
+.h {
+  color: blue;
+  height: 300px;
+  width: 100px;
+}
+}

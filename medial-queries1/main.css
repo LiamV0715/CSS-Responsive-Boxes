@@ -1,3 +1,53 @@
 body {
   background: blanchedalmond;
+  display: flex;
+  align-items: flex-start;
 }
+
+div {
+  font-size: 60px;
+}
+
+.b {
+  height: 200px;
+   border: black 2px solid;
+   display: flex;
+   margin: auto;
+}
+
+.a {
+  border: black 2px solid;
+  display: flex;
+}
+
+.c {
+  border: black 2px solid;
+  display: flex;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+}
+
+.box2 :first-child {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+@media (min-width: 700px) { 
+  .box2 {
+   display: flex;
+   
+  }
+
+  .b {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .c {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
